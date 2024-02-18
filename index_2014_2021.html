@@ -1,0 +1,80 @@
+<!doctype html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>R&D KIOSK</title>
+	<meta name="description" content="">
+	<meta name="author" content="Marcio Aguiar">
+
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS : implied media="all" -->
+	<link rel="stylesheet" href="./wow_book/wow_book.css" type="text/css" />
+	<link href='//fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+	<link href="/kiosk/css/newstart.css" rel="stylesheet" />
+	
+	<!-- bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75159039-1', 'auto');
+  ga('send', 'pageview');
+	</script>		
+	<script type="text/javascript" src="./js/jquery.min.js" charset=utf-8></script>
+</head>
+<body>	
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T49G4T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T49G4T');</script>
+<!-- End Google Tag Manager -->
+	<a name="top">
+	<div class="main scroll">
+		<div class="lastPostsLoader"></div>		
+	</div>
+	<div id="loaderbox" class="normalbox">					
+		<img src="./images/ajax-loader.gif">
+	</div>	
+
+	<div id="loadermore" class="normalbox">									
+		<a href="javascript:loadNextData(currentPosition);" class="btn_more">Older</a>
+	</div>
+		
+	<div class="link">
+		<a class="btn btn-primary btn-lg" href="/kiosk/index.html" role="button">2022년 이후 웹진</a>
+		<a class="btn btn-primary btn-lg" href="/kiosk/infographics/" role="button">한눈에 보는 인포그래픽스</a>
+		<a class="btn btn-primary btn-lg" href="/kiosk/infographics/stat_2016.html" role="button">한눈에 보는 통계지표</a>		 
+		<a class="btn btn-primary btn-lg" href="#top" role="button" style="float:right;">Go to Top</a>
+	</div>
+	
+	<div class="footer">			
+		<div class="f_info1">
+			<strong>© R&D KIOSK. All Rights Reserved.</strong>
+		</div>
+		<div class="f_info2">
+			<strong>문의: <img src="/kiosk/infographics/img/icon_email.png" />contactus@aply.biz</strong>
+		</div>
+	</div>
+	<script src="./kioskloadscript.js"></script>
+</body>
+</html>

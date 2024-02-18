@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^aplx.link$ [OR]
+RewriteCond %{HTTP_HOST} ^www.aplx.link$ [OR]
+RewriteCond %{HTTP_HOST} ^aq.gy$ [OR]
+RewriteCond %{HTTP_HOST} ^www.aq.gy$ [OR]
+RewriteCond %{HTTP_HOST} ^aply.biz$ [OR]
+RewriteCond %{HTTP_HOST} ^www.aply.biz$
+RewriteRule (.*)$ https://aplylab.com/kiosk/$1 [R=301,L]

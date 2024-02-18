@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* Common */
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none
+}
+body, html {width: 100%; height: 100%; min-width:844px;}
+body {background:url("../images/wood.jpg") repeat;}
+body, input, textarea, select, button, table {font-family: 'Open Sans', '나눔바른고딕', NanumBarunGothic, ng, '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, '애플 SD 산돌고딕 Neo', 'Apple SD Gothic Neo', AppleGothic, Helvetica, sans-serif; font-size: 12px;  -webkit-font-smoothing: antialiased}
+img, fieldset, button {border: 0}
+ul, ol {list-style: none}
+em, address {font-style: normal}
+a {text-decoration: none}
+a:hover, a:active, a:focus {text-decoration: none}
+
+.logo {width:844px; margin:0 auto;}
+.footer {width:900px; height:30px; margin:50px auto; padding:15px 0; font-size:12px;}
+.f_info1 {float:left;}
+.f_info2 {float:right;}
+.f_info2 img {vertical-align:middle; padding:2px;}
+.main {background:url("../images/bg_shelf1.png") 0 0 repeat-y; width:900px; height:auto; margin:0 auto; padding:0 0 20px 0;}
+.main:after {clear:both; content:''; display:block;}
+.box {float:left; margin:33px 0 12px 0; padding:0; height:176px;}
+.box a.leftSide {background-size: 169px Auto; background-repeat: no-repeat; display:inline-block; width:169px; height:176px; margin-left:10px;}
+.box a.inSide {background-size: 169px Auto; background-repeat: no-repeat; display:inline-block; width:169px; height:176px;}
+.box a.rightSide {background-size: 169px Auto; background-repeat: no-repeat; display:inline-block; width:169px; height:176px;}
+
+.normalbox {width:900px; margin:0 auto 20px; padding:10px 0; font-size:12px; text-align:center; border-style: solid; border-width:1px 0; border-color:#000;}
+.normalbox a {color:#000; text-decoration:none;}
+.normalbox a:hover {color:#2c83fa; text-decoration:none;}
+.normalbox .btn_more {font-size:24px; font-weight:bold;}
+a.btn_top {margin-left:20px; background-color:#000; color:#FFF; padding:3px 5px; font-size:12px; font-weight:normal;}
+.link {width:900px; margin:0 auto;}

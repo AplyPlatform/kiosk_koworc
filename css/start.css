@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* Common */
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none
+}
+body, html {width: 100%; height: 100%; min-width:844px;}
+body {background:url("../images/wood.jpg") repeat;}
+body, input, textarea, select, button, table {font-family: 'Open Sans', '?�눔바른고딕', NanumBarunGothic, ng, '맑�? 고딕', 'Malgun Gothic', '?��?', Dotum, '?�플 SD ?�돌고딕 Neo', 'Apple SD Gothic Neo', AppleGothic, Helvetica, sans-serif; font-size: 12px;  -webkit-font-smoothing: antialiased}
+img, fieldset, button {border: 0}
+ul, ol {list-style: none}
+em, address {font-style: normal}
+a {text-decoration: none}
+a:hover, a:active, a:focus {text-decoration: none}
+
+.logo {width:844px; margin:0 auto;}
+.footer {width:844px; margin:30px auto; padding:10px 0; font-size:12px;}
+.f_info1 {float:left;}
+.f_info2 {float:right;}
+.f_info2 img {vertical-align:middle; padding:2px;}
+.main {background:url("../images/bg_shelf.png") no-repeat; background-size:cover; width:844px; height:auto; margin:10px auto; padding:0 0 0 56px;}
+.main:after {clear:both; content:''; display:block;}
+.box {float:left; margin:6px 0 56px 0;}
+.box a.v8 {background:url("../images/index8.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v9 {background:url("../images/index9.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v10 {background:url("../images/index10.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v11 {background:url("../images/index11.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v12 {background:url("../images/index12.jpg"); no-repeat; display:inline-block; width:129px; height:154px;}
+.box a.v13 {background:url("../images/index13.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v14 {background:url("../images/index14.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v15 {background:url("../images/index15.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v16 {background:url("../images/index16.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v17 {background:url("../images/index17.jpg"); no-repeat; display:inline-block; width:129px; height:154px;}
+.box a.v18 {background:url("../images/index18.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v19 {background:url("../images/index19.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v20 {background:url("../images/index20.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v21 {background:url("../images/index21.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v22 {background:url("../images/index22.jpg"); no-repeat; display:inline-block; width:129px; height:154px;}
+.box a.v23 {background:url("../images/index23.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v24 {background:url("../images/index24.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v25 {background:url("../images/index25.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v26 {background:url("../images/index26.jpg"); no-repeat; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v27 {background:url("../images/index27.jpg"); no-repeat; display:inline-block; width:129px; height:154px;}
+.box a.v28 {background:url("../images/index28.jpg"); no-repeat; background-size: 129px Auto; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v29 {background:url("../images/index29.jpg"); no-repeat; background-size: 129px Auto; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v30 {background:url("../images/index30.jpg"); no-repeat; background-size: 129px Auto; margin-right:39px; display:inline-block; width:129px; height:154px;}
+.box a.v31 {background:url("../images/index31.jpg"); no-repeat; background-size: 129px Auto; margin-right:39px; display:inline-block; width:129px; height:154px;}

@@ -1,0 +1,176 @@
+<!doctype html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+	<meta charset="utf-8">
+	<style>
+		.js #kiosk {margin-left: -12000px; width: 100%;}
+	</style>
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+	   Remove this if you use the .htaccess -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>R&D KIOSK 제62호 2019년 7월</title>
+	<meta name="description" content="">
+	<meta name="author" content="Marcio Aguiar">
+
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS : implied media="all" -->
+	<link rel="stylesheet" href="css/style.css?v=2">
+	<link rel="stylesheet" href="./wow_book/wow_book.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/preview.css"><!-- Uncomment if you are specifically targeting less enabled mobile browsers
+	<link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+
+	<link href='//fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+	<script src="js/libs/modernizr-1.6.min.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ECN2H8VSTH"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-ECN2H8VSTH');
+	</script>
+</head>
+<body>
+	<div id="container">
+		<nav>
+			<ul>
+				<li><a id='first'     href="#" title='처음으로'   >처음으로</a></li>
+				<li><a id='back'      href="#" title='이전 페이지'  >이전 페이지</a></li>
+				<li><a id='next'      href="#" title='다음 페이지'>다음 페이지</a></li>
+				<li><a id='last'      href="#" title='마지막 페이지로'    >마지막 페이지로</a></li>
+				<li><a id='zoomin'    href="#" title='zoom in'           >Zoom In</a></li>
+				<li><a id='zoomout'   href="#" title='zoom out'          >Zoom Out</a></li>
+				<li><a id='slideshow' href="#" title='start slideshow'   >Slide Show</a></li>
+				<li><a id='flipsound' href="#" title='flip sound on/off' >Flip sound</a></li>
+				<li><a id='fullscreen' href="#" title='fullscreen on/off' >Fullscreen</a></li>
+				<li><a id='thumbs'    href="#" title='thumbnails on/off' >Thumbs</a></li>
+				<li><a id='all'    href="index_2014_2021.html" title='지난 호 보기' >지난 호 보기</a></li>
+				<li><a id='pdf'    href="PDFs/Kiosk_Issue62_2019_7.pdf" download title='PDF 다운로드' >PDF 다운로드</a></li>
+			</ul>
+		</nav>
+	<div id="main">		
+	    <img id='click_to_open' src="images/click_to_open.png" alt='click to open' />
+  		<div id='kiosk'>  		  
+  		  <div id="cover" class='feature'><img src="2019_7/2019_7_.jpg" width="100%" height="100%" /></div>
+			  <div class='feature'><img src="2019_7/2019_7_2.jpg" width="100%" height="100%" /></div>
+			  <div class='feature'><img src="2019_7/2019_7_3.jpg" width="100%" height="100%" /></div>
+			  <div class='feature'><img src="2019_7/2019_7_4.jpg" width="100%" height="100%" /></div>
+			  <div class='feature'><img src="2019_7/2019_7_5.jpg" width="100%" height="100%" /></div>
+			  <div class='feature'><img src="2019_7/2019_7_6.jpg" width="100%" height="100%" /></div>
+			  <div class='feature'><img src="2019_7/2019_7_7.jpg" width="100%" height="100%" /></div>
+			  <div class='feature'><img src="2019_7/2019_7_8.jpg" width="100%" height="100%" /></div>
+		  </div> <!-- features -->
+	</div>
+	<div id='thumbs_holder'>
+	</div>
+	<footer>
+
+	</footer>
+	</div> <!--! end of #container -->
+</div>
+
+	<!-- Javascript at the bottom for fast page loading -->
+
+	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="./js/libs/jquery-1.9.1.min.js"%3E%3C/script%3E'))</script>
+
+	<script type="text/javascript" src="./wow_book/wow_book.min.js"></script>
+
+	<script type="text/javascript">
+	
+		$(document).ready(function() {
+			$('#kiosk').wowBook({
+				 height : 500
+				,width  : 800
+				,centeredWhenClosed : true
+				,hardcovers : true
+				,turnPageDuration : 1000
+				,numberedPages : [1,-2]
+				,controls : {
+						zoomIn    : '#zoomin',
+						zoomOut   : '#zoomout',
+						next      : '#next',
+						back      : '#back',
+						first     : '#first',
+						last      : '#last',
+						slideShow : '#slideshow',
+						flipSound : '#flipsound',
+						thumbnails : '#thumbs',
+						fullscreen : '#fullscreen'
+					}
+				,scaleToFit: "#container"
+				,thumbnailsPosition : 'bottom'
+				,onFullscreenError : function(){
+					var msg="Fullscreen failed.";
+					if (self!=top) msg="The frame is blocking full screen mode. Click on 'remove frame' button above and try to go full screen again."
+					alert(msg);
+				}
+			}).css({'display':'none', 'margin':'auto'}).fadeIn(1000);
+
+			$("#cover").click(function(){
+				$.wowBook("#kiosk").advance();
+			});
+
+			var book = $.wowBook("#kiosk");
+
+			function rebuildThumbnails(){
+				book.destroyThumbnails()
+				book.showThumbnails()
+				$("#thumbs_holder").css("marginTop", -$("#thumbs_holder").height()/2)
+			}
+			$("#thumbs_position button").on("click", function(){
+				var position = $(this).text().toLowerCase()
+				if ($(this).data("customized")) {
+					position = "top"
+					book.opts.thumbnailsParent = "#thumbs_holder";
+				} else {
+					book.opts.thumbnailsParent = "body";
+				}
+				book.opts.thumbnailsPosition = position
+				rebuildThumbnails();
+			})
+			$("#thumb_automatic").click(function(){
+				book.opts.thumbnailsSprite = null
+				book.opts.thumbnailWidth = null
+				rebuildThumbnails();
+			})
+			$("#thumb_sprite").click(function(){
+				book.opts.thumbnailsSprite = "images/thumbs.jpg"
+				book.opts.thumbnailWidth = 136
+				rebuildThumbnails();
+			})
+			$("#thumbs_size button").click(function(){
+				var factor = 0.02*( $(this).index() ? -1 : 1 );
+				book.opts.thumbnailScale = book.opts.thumbnailScale + factor;
+				rebuildThumbnails();
+			})
+
+
+		});
+	</script>
+
+	<!-- scripts concatenated and minified via ant build script-->
+	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
+	<!-- end concatenated and minified scripts-->
+
+	<!--[if lt IE 7 ]>
+	<script src="js/libs/dd_belatedpng.js"></script>
+	<script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+	<![endif]-->
+
+</body>
+</html>
