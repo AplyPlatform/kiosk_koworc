@@ -4,10 +4,10 @@
 	<meta charset="utf-8" />
 	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
 	<title>R&D KIOSK Infographics</title>
-	<link href="/kiosk/infographics/css/layout.css" rel="stylesheet" />
-	<link href="/kiosk/infographics/css/webfont.css" rel="stylesheet" />
-	<script src="/kiosk/infographics/s/layout.js"></script>
-	<script src="/kiosk/infographics/js/jquery.parallax-scroll.min.js"></script>
+	<link href="css/layout.css" rel="stylesheet" />
+	<link href="css/webfont.css" rel="stylesheet" />
+	<script src="s/layout.js"></script>
+	<script src="js/jquery.parallax-scroll.min.js"></script>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ECN2H8VSTH"></script>
@@ -31,12 +31,16 @@
 	  gtag('config', 'G-ECN2H8VSTH');
 	</script>
 	<div class="container magazine">
-		<?php include 'common/_header.html';?>		
+		<div class="header_wrap xe-clearfix">
+			<header class="header main">
+				<div class="side">한눈에 보는<br />인포그래픽스</div>
+			</header>
+		</div>
 		<div class="body fixed-width main">
 			<nav class="gnb">
 				<ul>
-					<li><a href="/kiosk/infographics/index.html">Go to Home</a></li>
-					<li><a href="/kiosk/infographics/pdfs/Infographics5.pdf" download title='PDF 다운로드' target="_blank">PDF로 다운로드하기</a></li>
+					<li><a href="index.html">Go to Home</a></li>
+					<li><a href="pdfs/Infographics5.pdf" download title='PDF 다운로드' target="_blank">PDF로 다운로드하기</a></li>
 				</ul>
 			</nav>
 
@@ -48,7 +52,16 @@
 				<a href="http://www.energynewbiz.or.kr" target="_blank" class="btn_item">에너지 신산업 바로가기</a>
 			</div>
 		</div>
-  		<?php include 'common/_footer.html';?>
+		<footer class="footer">
+			<div class="f_info_area">
+				<div class="f_info1">
+					<strong>© R&D KIOSK. All Rights Reserved.</strong>
+				</div>
+				<div class="f_info2">
+					<strong>문의: <img src="img/icon_email.png" />contactus@aply.biz</strong>
+				</div>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>

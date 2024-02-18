@@ -4,10 +4,10 @@
 	<meta charset="utf-8" />
 	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
 	<title>R&D KIOSK 한눈에 보는 통계지표</title>
-	<link href="/kiosk/infographics/css/layout.css" rel="stylesheet" />
-	<link href="/kiosk/infographics/css/webfont.css" rel="stylesheet" />
-	<script src="/kiosk/infographics/js/layout.js"></script>
-	<script src="/kiosk/infographics/js/jquery.parallax-scroll.min.js"></script>
+	<link href="css/layout.css" rel="stylesheet" />
+	<link href="css/webfont.css" rel="stylesheet" />
+	<script src="js/layout.js"></script>
+	<script src="js/jquery.parallax-scroll.min.js"></script>
 	<!-- bootstrap -->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
@@ -29,9 +29,36 @@
 
 <body>
 	<div class="stat_container">
-		<?php include 'common/_header_stat.html';?>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+				<a class="navbar-brand" href="stat_2016.html">2016년 한눈에 보는 통계지표</a>
+			  </div>
+			  <ul class="nav navbar-nav">
+				  <li><a href="stat_2016.html">Home</a></li>
+					<li><a href="stat_2016_2.html">R&D 투자</a></li>
+					<li><a href="stat_2016_3.html">R&D 인력</a></li>
+					<li><a href="stat_2016_4.html">R&D 인프라</a></li>
+					<li><a href="stat_2016_5.html">R&D 성과</a></li>
+			  </ul>
+			</div>
+		  </nav>
 		<div><img src="img/index_2016_2.jpg" /></div>
-  		<?php include 'common/_footer_stat.html';?>
+		<footer class="footer" style="width:900px; margin:20px auto; border:none; background:none;">
+			<div style="margin-bottom: 20px;">
+				<a class="btn btn-primary btn-lg" href="/index.html" role="button">R&D KIOSK 웹진</a>	
+				<a class="btn btn-primary btn-lg" href="/infographics/" role="button">한눈에 보는 인포그래픽스</a>
+			</div>
+			
+			<div class="f_info_area">
+				<div class="f_info1">
+					<strong>© R&D KIOSK. All Rights Reserved.</strong>
+				</div>
+				<div class="f_info2">
+					<strong>문의: <img src="img/icon_email.png" />contactus@aply.biz</strong>
+				</div>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>
